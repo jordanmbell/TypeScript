@@ -1,5 +1,5 @@
 declare namespace Intl {
-    type DateTimeFormatPartTypes = "day" | "dayPeriod" | "era" | "hour" | "literal" | "minute" | "month" | "second" | "timeZoneName" | "weekday" | "year";
+    type DateTimeFormatPartTypes = "day" | "dayPeriod" | "era" | "fractionalSecond" | "hour" | "literal" | "minute" | "month" | "second" | "timeZoneName" | "weekday" | "year";
 
     interface DateTimeFormatPart {
         type: DateTimeFormatPartTypes;
